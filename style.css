@@ -32,7 +32,6 @@ body {
 /* Header Section */
 header {
   width: 100%;
-  max-width: 1600px;
   height: 837px;
   margin: 0 auto;
   background-color: #fff8f3;
@@ -145,7 +144,7 @@ nav ul a {
 }
 
 .hero-image img {
-  margin-left: 75px;
+  margin-left: 150px;
   height: 100%;
 }
 
@@ -291,6 +290,50 @@ hr {
   width: 100%;
   border: none;
   border-top: 1px solid #ccc;
+}
+
+/* Contract Section */
+.footer {
+  width: 100%;
+  background-color: rgb(255, 248, 243);
+}
+.contact-section {
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+
+.connect-section {
+  text-align: left;
+}
+
+.connect-section p {
+  text-align: left;
+  width: 562px;
+}
+
+.message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.message-section input[type="text"] {
+  width: 461px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.message-section textarea {
+  width: 461px;
+  height: 180px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
 }
 
 /* Responsive Design Notes: You can add media queries below for responsiveness */
